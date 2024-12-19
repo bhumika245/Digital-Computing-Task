@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        body {
+            background: #000000;
+            color: #ffffff;
+        }
+
+        nav {
+            display: flex;
+            width: 84%;
+            margin: auto;
+            padding: 20px 0;
+            align-items: center;
+            justify-content: space-between;
+            background: #000000;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logo {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #ffffff;
+        }
+
+        .links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .link a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+
+        .link a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #ffffff;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .project-card {
+            background: #000000;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ffffff;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+
+        .project-card h2 {
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+
+        .project-card p {
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .project-card a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ffffff;
+            color: #000000;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .project-card a:hover {
+            background: #000000;
+            color: #ffffff;
+            border: 1px solid #ffffff;
+        }
+    </style>
+</head>
+<body><header>
+    
+</header>
+    <nav>
+    <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+            Bhumika<span>Patel</span>
+        </div>
+        <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">Home</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="Ab.html">About</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="Education.html">Education</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="projects.html">projects</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="contect.html">Contact</a></div>
+        </div>
+     
+    </header>
+</nav>
+    <div class="container">
+        <h1>My Project Collection</h1>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <h2>Calculator</h2>
+                <p>A simple and beautiful calculator application</p>
+                <a href="calculator.html">View Project</a>
+            </div>
+            
+            <div class="project-card">
+                <h2>Instagram Clone</h2>
+                <p>Instagram-style login page</p>
+                <a href="insta.html">View Project</a>
+            </div>
+            
+           
+            
+            <div class="project-card">
+                <h2>Student Portal</h2>
+                <p>Student login system</p>
+                <a href="form.html">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h2>Facebook Clone</h2>
+                <p>Facebook-like social media interface</p>
+                <a href="face.html">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h2>LinkedIn Clone</h2>
+                <p>Professional networking platform</p>
+                <a href="Lin.html">View Project</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
